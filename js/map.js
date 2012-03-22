@@ -21,6 +21,7 @@ $( function () {
       $.get(geocodeUrl, function(data) {
         console.log("WE GOT SOMETHING");
         console.log(data);
+        SOMG THIS DOESNT WORK
       });
     }
     var marker = new google.maps.Marker({
