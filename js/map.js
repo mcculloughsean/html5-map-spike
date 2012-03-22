@@ -29,7 +29,7 @@ $( function () {
       title:"Hello World!"
     });
     var infowindow = new google.maps.InfoWindow({
-      content: "FOO BAR" 
+      content: "FOO this works BAR" 
     });
     google.maps.event.addListener(marker, 'click', function() {
       infowindow.open(map,marker);
